@@ -65,10 +65,6 @@ public class MainActivity extends AppCompatActivity {
     webView.loadUrl("file:///android_asset/index.html");
   }
 
-  public void removeAds(android.view.View view) {
-    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
-    startActivity(browserIntent);
-  }
 
   public class AudioInterface {
     private List<MediaPlayer> mediaPlayers = new ArrayList<>();
